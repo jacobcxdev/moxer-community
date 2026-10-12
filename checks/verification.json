@@ -232,13 +232,43 @@
   },
   "artwork": "All 181 SVGs match originals byte for byte",
   "runtimeCode": false,
-  "marketplacePublished": false,
-  "automaticSyncTested": false,
+  "marketplacePublished": true,
+  "automaticSyncTested": true,
   "publisherOwnershipVerified": true,
   "publisherRole": "Owner",
   "publisherId": "61c3ce5e-3112-4b0e-94d1-d215002a7357",
   "marketplaceExtensionId": "c5936438-a47f-4313-bbbe-35b56c3f4cc9",
-  "marketplaceUploadVersion": "1.0.0",
-  "marketplaceUploadSha256": "ff7ddd05dc709a34c5d417d00d0a9134a30a645bdf8a352f750a9355d2e2b520",
-  "publishedDownloadMatchesUpload": true
+  "marketplaceUploadVersion": "1.0.1",
+  "marketplaceUploadSha256": "96f9bd68d3756e099deca644737c7cb6c763c426d3870f7c52f68096546f1daf",
+  "publishedDownloadMatchesUpload": true,
+  "crossMachineRestoreTested": false,
+  "marketplaceValidatedVersion": "1.0.1",
+  "galleryInstallVerified": true,
+  "galleryInstallSource": "gallery",
+  "githubRepository": "https://github.com/jacobcxdev/moxer-community",
+  "sourceDirectory": "/Users/jacob/Developer/src/github/jacobcxdev/moxer-community",
+  "settingsSync": {
+    "enabled": true,
+    "extensionUploaded": {
+      "id": "jacobcxdev.moxer-community",
+      "uuid": "c5936438-a47f-4313-bbbe-35b56c3f4cc9",
+      "version": "1.0.0",
+      "installed": true,
+      "pinned": false
+    },
+    "settingsUploaded": {
+      "workbench.colorTheme": "Moxer",
+      "workbench.iconTheme": "moxer-icons"
+    },
+    "extensionSyncCompletedAt": "2026-10-12T20:15:35.326Z",
+    "settingsSyncCompletedAt": "2026-10-12T20:24:16.896Z",
+    "legacyExtensionsDisabled": [
+      "equinusocio1.moxer-theme1",
+      "equinusocio1.moxer-icons1"
+    ],
+    "crossMachineRestoreTested": false
+  },
+  "normalProfileInstalledVersion": "1.0.1",
+  "isolatedGalleryInstalledVersion": "1.0.1",
+  "releaseAssetsMatchTestedVersion": true
 }

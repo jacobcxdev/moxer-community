@@ -2,11 +2,13 @@
 
 Validated 12 October 2026.
 
+Source: [jacobcxdev/moxer-community](https://github.com/jacobcxdev/moxer-community), checked out at `~/Developer/src/github/jacobcxdev/moxer-community`.
+
 ## Deliverable
 
-`jacobcxdev.moxer-community` 1.0.0 combines Moxer Theme 7.7.0 and Moxer Icons 5.12.1 into one platform-independent VSIX. Includes Moxer, Moxer Borderline, Moxer Light and Moxer Icons. Minimum VS Code version: 1.140.0.
+`jacobcxdev.moxer-community` 1.0.1 combines Moxer Theme 7.7.0 and Moxer Icons 5.12.1 into one platform-independent VSIX. Includes Moxer, Moxer Borderline, Moxer Light and Moxer Icons. Minimum VS Code version: 1.140.0.
 
-Publisher ownership was confirmed in Marketplace management: the signed-in account has the Owner role for `JacobCXDev` (resolved as `jacobcxdev`). Version 1.0.0 was uploaded; Marketplace validation is pending. Version 1.0.1 adds repository metadata and installation documentation without changing theme or icon assets.
+Publisher ownership was confirmed in Marketplace management: the signed-in account has the Owner role for `JacobCXDev` (resolved as `jacobcxdev`). Versions 1.0.0 and 1.0.1 passed Marketplace validation. Version 1.0.1 installed by gallery identity in both an isolated profile and the normal user profile. Published VSIX download matches the upload SHA-256 exactly (`96f9bd68d3756e099deca644737c7cb6c763c426d3870f7c52f68096546f1daf`). Version 1.0.1 adds repository metadata and installation documentation; all 185 theme and icon files match the tested 1.0.0 release byte for byte.
 
 ## Results
 
@@ -39,7 +41,7 @@ Icons had 15 associations referencing four missing definitions: Jade, Jest, Roll
 
 Settings Sync synchronises preferences and extension identities. On another machine it retrieves extensions from the Marketplace; it does not transport local VSIX contents. A VSIX alone therefore still needs installation on each machine.
 
-For automatic restoration and updates, install this identity from the Visual Studio Marketplace and enable both Settings and Extensions in Settings Sync. Publication was authorised and uploaded; gallery installation remains pending validation. No cross-machine automatic-sync test has occurred.
+For automatic restoration and updates, install this identity from the Visual Studio Marketplace and enable both Settings and Extensions in Settings Sync. Gallery installation completed in the normal profile. Settings Sync uploaded `jacobcxdev.moxer-community` with its Marketplace UUID at 20:15:35 UTC, then uploaded `workbench.colorTheme: "Moxer"` and `workbench.iconTheme: "moxer-icons"` at 20:24:16 UTC. Successful sync log entries and the saved server snapshots confirm both uploads. Both legacy local Moxer extensions are disabled. Restoration on a separate machine has not been executed; sign in with the same Settings Sync account and enable Settings and Extensions there.
 
 ## Limits
 
