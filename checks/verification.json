@@ -266,7 +266,19 @@
       "equinusocio1.moxer-theme1",
       "equinusocio1.moxer-icons1"
     ],
-    "crossMachineRestoreTested": false
+    "crossMachineRestoreTested": false,
+    "activeThemesVerified": {
+      "colorThemeData": {
+        "settingsId": "Moxer",
+        "extensionId": "jacobcxdev.moxer-community"
+      },
+      "iconThemeData": {
+        "settingsId": "moxer-icons",
+        "extensionId": "jacobcxdev.moxer-community"
+      }
+    },
+    "settingsServerRef": "45f795f6-2c71-4a9a-b913-cbe1d34568bf",
+    "extensionsServerRef": "7581676f-7e96-4cff-b32c-79e16abc87d8"
   },
   "normalProfileInstalledVersion": "1.0.1",
   "isolatedGalleryInstalledVersion": "1.0.1",
