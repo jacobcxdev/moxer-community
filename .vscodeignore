@@ -1,0 +1,11 @@
+**/*
+!package.json
+!README.md
+!CHANGELOG.md
+!LICENSE.txt
+!NOTICE
+!logo.png
+!themes/**
+!icons/**
+!upstream/theme-LICENSE.txt
+!upstream/icons-LICENSE.txt

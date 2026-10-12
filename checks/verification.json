@@ -1,0 +1,244 @@
+{
+  "baseline": {
+    "version": "1.141.0",
+    "diagnostics": {
+      "Moxer.json": [
+        {
+          "message": "This color must be transparent or it will obscure content",
+          "severity": 1,
+          "line": 580,
+          "text": "\"#E382BC\""
+        },
+        {
+          "message": "'editorIndentGuide.background' is deprecated. Use 'editorIndentGuide.background1' instead.",
+          "severity": 1,
+          "line": 554,
+          "text": "\"editorIndentGuide.background\": \"#212431\"",
+          "code": 2
+        },
+        {
+          "message": "'editorIndentGuide.activeBackground' is deprecated. Use 'editorIndentGuide.activeBackground1' instead.",
+          "severity": 1,
+          "line": 555,
+          "text": "\"editorIndentGuide.activeBackground\": \"#35394B\"",
+          "code": 2
+        },
+        {
+          "message": "Property activityBar.dropBackground is not allowed.",
+          "severity": 1,
+          "line": 457,
+          "text": "\"activityBar.dropBackground\""
+        },
+        {
+          "message": "Property editor.findMatchHighlight is not allowed.",
+          "severity": 1,
+          "line": 484,
+          "text": "\"editor.findMatchHighlight\""
+        },
+        {
+          "message": "Property panel.dropBackground is not allowed.",
+          "severity": 1,
+          "line": 548,
+          "text": "\"panel.dropBackground\""
+        },
+        {
+          "message": "Token background colors are currently not supported.",
+          "severity": 1,
+          "line": 8,
+          "text": "\"background\": \"#090A0F\"",
+          "code": 2
+        },
+        {
+          "message": "Token background colors are currently not supported.",
+          "severity": 1,
+          "line": 435,
+          "text": "\"background\": \"#090A0F\"",
+          "code": 2
+        }
+      ],
+      "Moxer-Borderline.json": [
+        {
+          "message": "This color must be transparent or it will obscure content",
+          "severity": 1,
+          "line": 580,
+          "text": "\"#E382BC\""
+        },
+        {
+          "message": "'editorIndentGuide.background' is deprecated. Use 'editorIndentGuide.background1' instead.",
+          "severity": 1,
+          "line": 554,
+          "text": "\"editorIndentGuide.background\": \"#212431\"",
+          "code": 2
+        },
+        {
+          "message": "'editorIndentGuide.activeBackground' is deprecated. Use 'editorIndentGuide.activeBackground1' instead.",
+          "severity": 1,
+          "line": 555,
+          "text": "\"editorIndentGuide.activeBackground\": \"#35394B\"",
+          "code": 2
+        },
+        {
+          "message": "Property activityBar.dropBackground is not allowed.",
+          "severity": 1,
+          "line": 457,
+          "text": "\"activityBar.dropBackground\""
+        },
+        {
+          "message": "Property editor.findMatchHighlight is not allowed.",
+          "severity": 1,
+          "line": 484,
+          "text": "\"editor.findMatchHighlight\""
+        },
+        {
+          "message": "Property panel.dropBackground is not allowed.",
+          "severity": 1,
+          "line": 548,
+          "text": "\"panel.dropBackground\""
+        },
+        {
+          "message": "Token background colors are currently not supported.",
+          "severity": 1,
+          "line": 8,
+          "text": "\"background\": \"#090A0F\"",
+          "code": 2
+        },
+        {
+          "message": "Token background colors are currently not supported.",
+          "severity": 1,
+          "line": 435,
+          "text": "\"background\": \"#090A0F\"",
+          "code": 2
+        }
+      ],
+      "Moxer-Light.json": [
+        {
+          "message": "This color must be transparent or it will obscure content",
+          "severity": 1,
+          "line": 580,
+          "text": "\"#E382BC\""
+        },
+        {
+          "message": "'editorIndentGuide.background' is deprecated. Use 'editorIndentGuide.background1' instead.",
+          "severity": 1,
+          "line": 554,
+          "text": "\"editorIndentGuide.background\": \"#F5F7F9\"",
+          "code": 2
+        },
+        {
+          "message": "'editorIndentGuide.activeBackground' is deprecated. Use 'editorIndentGuide.activeBackground1' instead.",
+          "severity": 1,
+          "line": 555,
+          "text": "\"editorIndentGuide.activeBackground\": \"#A9B4CB\"",
+          "code": 2
+        },
+        {
+          "message": "Property activityBar.dropBackground is not allowed.",
+          "severity": 1,
+          "line": 457,
+          "text": "\"activityBar.dropBackground\""
+        },
+        {
+          "message": "Property editor.findMatchHighlight is not allowed.",
+          "severity": 1,
+          "line": 484,
+          "text": "\"editor.findMatchHighlight\""
+        },
+        {
+          "message": "Property panel.dropBackground is not allowed.",
+          "severity": 1,
+          "line": 548,
+          "text": "\"panel.dropBackground\""
+        },
+        {
+          "message": "Token background colors are currently not supported.",
+          "severity": 1,
+          "line": 8,
+          "text": "\"background\": \"#FFFFFF\"",
+          "code": 2
+        },
+        {
+          "message": "Token background colors are currently not supported.",
+          "severity": 1,
+          "line": 435,
+          "text": "\"background\": \"#FFFFFF\"",
+          "code": 2
+        }
+      ]
+    }
+  },
+  "packagedExtension": {
+    "1.140.0": {
+      "version": "1.140.0",
+      "extension": {
+        "id": "jacobcxdev.moxer-community",
+        "version": "1.0.0"
+      },
+      "diagnostics": {
+        "Moxer": [],
+        "Moxer Borderline": [],
+        "Moxer Light": [],
+        "icons": []
+      },
+      "loadedThemes": [
+        {
+          "label": "Moxer",
+          "kind": 2,
+          "verifiedColours": 359
+        },
+        {
+          "label": "Moxer Borderline",
+          "kind": 2,
+          "verifiedColours": 359
+        },
+        {
+          "label": "Moxer Light",
+          "kind": 1,
+          "verifiedColours": 359
+        }
+      ],
+      "iconTheme": "moxer-icons"
+    },
+    "1.141.0": {
+      "version": "1.141.0",
+      "extension": {
+        "id": "jacobcxdev.moxer-community",
+        "version": "1.0.0"
+      },
+      "diagnostics": {
+        "Moxer": [],
+        "Moxer Borderline": [],
+        "Moxer Light": [],
+        "icons": []
+      },
+      "loadedThemes": [
+        {
+          "label": "Moxer",
+          "kind": 2,
+          "verifiedColours": 359
+        },
+        {
+          "label": "Moxer Borderline",
+          "kind": 2,
+          "verifiedColours": 359
+        },
+        {
+          "label": "Moxer Light",
+          "kind": 1,
+          "verifiedColours": 359
+        }
+      ],
+      "iconTheme": "moxer-icons"
+    }
+  },
+  "artwork": "All 181 SVGs match originals byte for byte",
+  "runtimeCode": false,
+  "marketplacePublished": false,
+  "automaticSyncTested": false,
+  "publisherOwnershipVerified": true,
+  "publisherRole": "Owner",
+  "publisherId": "61c3ce5e-3112-4b0e-94d1-d215002a7357",
+  "marketplaceExtensionId": "c5936438-a47f-4313-bbbe-35b56c3f4cc9",
+  "marketplaceUploadVersion": "1.0.0",
+  "marketplaceUploadSha256": "ff7ddd05dc709a34c5d417d00d0a9134a30a645bdf8a352f750a9355d2e2b520",
+  "publishedDownloadMatchesUpload": true
+}

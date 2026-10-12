@@ -1,0 +1,17 @@
+Moxer (Community)
+
+Unofficial preservation and compatibility update of:
+- Moxer Theme 7.7.0, Copyright [2020] [Mattia Astorino].
+- Moxer Icons 5.12.1, Copyright [2019] Mattia Astorino.
+
+Original author: Mattia Astorino [@equinusocio].
+Original licences are retained verbatim in upstream/theme-LICENSE.txt
+and upstream/icons-LICENSE.txt. Both works were distributed under Apache-2.0.
+
+Modified 2026-10-12 for Jacob:
+- Combined themes and icons under a distinct extension identity.
+- Updated colour-theme keys, transparency, semantic tokens and modern surfaces.
+- Repaired icon associations and added current file/language mappings.
+- Retained all 181 original SVG files without modification.
+
+This continuation is not affiliated with or endorsed by the original author.

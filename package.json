@@ -1,0 +1,81 @@
+{
+  "$comment": "Modified 2026-10-12: combined preserved Moxer Theme and Moxer Icons as an unofficial community extension.",
+  "name": "moxer-community",
+  "displayName": "Moxer (Community)",
+  "description": "Preserved Moxer colour themes and file icons, updated for current VS Code. Unofficial community continuation.",
+  "version": "1.0.1",
+  "publisher": "jacobcxdev",
+  "license": "Apache-2.0",
+  "author": "Mattia Astorino [@equinusocio] (original themes and icons)",
+  "engines": {
+    "vscode": "^1.140.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "moxer",
+    "theme",
+    "icons"
+  ],
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#090A0F",
+    "theme": "dark"
+  },
+  "extensionKind": [
+    "ui"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": {
+      "supported": true
+    }
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "Moxer",
+        "label": "Moxer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Moxer.json"
+      },
+      {
+        "id": "Moxer Borderline",
+        "label": "Moxer Borderline",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Moxer-Borderline.json"
+      },
+      {
+        "id": "Moxer Light",
+        "label": "Moxer Light",
+        "uiTheme": "vs",
+        "path": "./themes/Moxer-Light.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "moxer-icons",
+        "label": "Moxer Icons",
+        "path": "./icons/moxer-icons.json"
+      }
+    ]
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "package": "npm run check && vsce package --no-dependencies --out moxer-community-1.0.1.vsix"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobcxdev/moxer-community.git"
+  },
+  "homepage": "https://github.com/jacobcxdev/moxer-community#readme",
+  "bugs": {
+    "url": "https://github.com/jacobcxdev/moxer-community/issues"
+  }
+}
